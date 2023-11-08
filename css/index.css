@@ -6,6 +6,7 @@
   background-image: url("../img/kseniya-lapteva-vopD-CchWbk-unsplash.jpg");
   /*to shout out or attribut the author when active, this is currently testing page only*/
   background-attachment: fixed;
+  background-repeat: no-repeat;
   display: block;
   object-fit: none;
   margin-left:auto;
