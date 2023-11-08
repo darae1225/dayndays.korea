@@ -2,8 +2,12 @@
 
 .wrapper {
   max-width: 100%;
-  background: linear-gradient(to bottom, white, var(--color-primary));
+  /*background: linear-gradient(to bottom, white, var(--color-primary));*/
+  background-image: url("/img/kseniya-lapteva-vopD-CchWbk-unsplash.jpg");
+  /*to shout out or attribut the author when active, this is currently testing page only*/
+  background-attachment: fixed;
   display: block;
+  object-fit: none;
   margin-left:auto;
   margin-right: auto;
 }
@@ -71,7 +75,7 @@ nav {
 .logo-button {
   width: 100px;
   margin: 1rem;
-  border-radius: 50px;
+  border-radius: 50%;
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -104,7 +108,7 @@ a:active, figure a:active {
 
 .intro img {
   max-width:100%;
-  margin-top: 7.5rem;
+  margin-top: 8.5rem;
 }
 
 section {

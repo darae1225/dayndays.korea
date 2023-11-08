@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Hello Candy';
+    src: url('HelloCandy.eot');
+    src: url('HelloCandy.eot?#iefix') format('embedded-opentype'),
+        url('HelloCandy.woff2') format('woff2'),
+        url('HelloCandy.woff') format('woff'),
+        url('HelloCandy.ttf') format('truetype'),
+        url('HelloCandy.svg#HelloCandy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

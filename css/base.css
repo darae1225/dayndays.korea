@@ -16,7 +16,8 @@
 
 html {
   box-sizing: border-box;
-  background: linear-gradient(to bottom, var(--color-white),var(--color-primary));
+  /*background: linear-gradient(to bottom, var(--color-white),var(--color-primary));*/
+  background-image: url("/img/kseniya-lapteva-vopD-CchWbk-unsplash.jpg");
 }
 
 *,
