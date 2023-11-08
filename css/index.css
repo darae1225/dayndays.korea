@@ -3,7 +3,7 @@
 .wrapper {
   max-width: 100%;
   /*background: linear-gradient(to bottom, white, var(--color-primary));*/
-  background-image: url("/img/kseniya-lapteva-vopD-CchWbk-unsplash.jpg");
+  background-image: url("../img/kseniya-lapteva-vopD-CchWbk-unsplash.jpg");
   /*to shout out or attribut the author when active, this is currently testing page only*/
   background-attachment: fixed;
   display: block;
