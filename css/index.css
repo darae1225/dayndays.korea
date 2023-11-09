@@ -14,30 +14,18 @@
 }
 
 h1 {
-  size: var(--h1-size);
+  font-size: var(--h1);
   color: var(--color-khaiki);
   text-align: center;
   text-transform: uppercase;
 }
 
 h2 {
-  size: var(--h2-size);
+  font-size: var(--h2);
   text-transform: uppercase;
   text-align: center;
   color: var(--color-green);  
 }
-
-/*
-h3 {
-  size: var(--h3-size);
-}
-h4 {
-  size: var(--h4-size);
-}
-h5 {
-  size: var(--h5-size);
-}
-*/  
 
 img {
   opacity: 0.8;
@@ -87,7 +75,7 @@ nav {
 
 /* line-height used to align text to center
 .idus { 
-  font-size: 1.5rem;
+  font-size: var(--base-size);
   line-height: 50px;
 }
 */
@@ -202,11 +190,16 @@ footer p {
     grid-template-columns: repeat(2, 1fr);
     gap: 1%;
   }
-
+  h1 {
+    font-size: calc(var(--h1)*var(--scale));
+  }
+  
+  h2{
+    font-size: calc(var(--h2)*var(--scale));
 }
 
-
 @media (min-width: 800px) {
+
   .photos-last {
     display: block; 
   }
@@ -224,6 +217,10 @@ footer p {
   }
   .products {
     grid-template-columns: repeat(4, auto); 
+  }
+
+  figure figcaption {
+    font-size: var(--base-size)
   }
 }
 
@@ -258,7 +255,7 @@ footer p {
   figure figcaption {
     text-align: center;
     margin: 1rem 0 3rem 0;
-    font-size: 1.5rem;
+    font-size: var(--base-size);
   }
 
   .products {

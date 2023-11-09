@@ -5,13 +5,10 @@
   --color-khaiki: rgb(27, 116, 53);
   
   --base-size: 1.2rem ;
-  --scale: 1.25;
-  --h5-size: var(--base-size * --scale);
-  --h4-size: var(--h5-size * --scale);
-  --h3-size: var(--h4-size * --scale);
-  --h2-size: var(--h3-size * --scale);
-  --h1-size: var(--h2-size * --scale);
-  --lg-size: var(--h1-size) * var(--scale);
+  --scale: 1.2;
+  --h1: calc(var(--h2)*var(--scale));
+  --h2: calc(var(--h3)*var(--scale));
+  --h3: calc(var(--base-size)*var(--scale));
 }
 
 html {
