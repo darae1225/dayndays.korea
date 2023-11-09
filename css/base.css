@@ -11,6 +11,15 @@
   --h3: calc(var(--base-size)*var(--scale));
 }
 
+@font-face {
+  font-family: HelloCandy;
+  src: url(/font/HelloCandy.eot);
+  src: url(/font/HelloCandy.svg);
+  src: url(/font/HelloCandy.ttf);
+  src: url(/font/HelloCandy.woff);
+  src: url(/font/HelloCandy.woff2);
+}
+
 html {
   box-sizing: border-box;
   /*background: linear-gradient(to bottom, var(--color-white),var(--color-primary));*/
@@ -30,4 +39,8 @@ body {
   height: 100%;
   width: 100%;
   margin: 0px;
+  font-family: HelloCandy;
 }
+
+
+

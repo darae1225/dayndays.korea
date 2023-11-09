@@ -126,7 +126,7 @@ section {
 figure figcaption {
   text-align: center;
   margin: 1rem 0 3rem 0;
-  font-size: var(--base-size)
+  font-size: var(--base-size);
 }  
 
 .categories-row {
@@ -170,7 +170,8 @@ footer {
 footer p {
   text-align: center;
   padding: 3rem 0;
-  margin-bottom: 5rem; 
+  margin-bottom: 5rem;
+  font-family: 'Times New Roman', HelloCandy;  
 }
 
 /*large mobile*/
@@ -220,7 +221,7 @@ footer p {
   }
 
   figure figcaption {
-    font-size: var(--base-size)
+    font-size: var(--base-size);
   }
 }
 
